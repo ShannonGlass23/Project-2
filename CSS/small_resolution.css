@@ -1,0 +1,45 @@
+.container {
+	border: 8px solid rgb(123, 201, 238);
+}
+
+.logo {
+    display: flexbox;
+}
+
+.navbar {
+    display: block;
+}
+
+.font-small:hover {
+	color: #DEEBFF;
+    border-bottom: 2px solid #0065FC;
+	margin-top: 0px;
+}
+
+.navbar .navbar-items a {
+	display: block;
+	padding: 15px;
+    border-bottom: 2px solid #F2F2F2;
+}
+
+.navbar-items {
+    display: block;
+}
+
+.nav-heading-split {
+	margin-right: 0;
+}
+
+<form class="mb">
+<i class="fas fa-map-marker-alt search-icon">
+<input class="search-input" type="text" placeholder="Search"required>
+<button class="search-button bg-blue white" type="submit"><i class="fas fa-map-marker-alt"></i></button>
+</form>
+
+.search-button {
+	border-radius: 10px;
+	/* border-top-right-radius: 10px; */
+	border: 2px solid #F2F2F2;
+	margin: 0px 0px -3px -6px
+    /* <i class="fas fa-map-marker-alt"></i> Here is the code for the search icon needed*/
+}
