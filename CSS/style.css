@@ -37,13 +37,22 @@ body {
 	margin-bottom: 10px;
 }
 
+.find-a-place-bottom {
+	margin-bottom: 10px;
+}
+
+h4 {
+	margin-bottom: 10px;
+}
+
 .font-small {
 	font-size: small;
 	padding-top: 20px; 
 }
 
-.subheading {
+.downtown {
 	font-size: small;
+	margin-bottom: 10px;
 }
 
 .font-norm {
@@ -69,6 +78,11 @@ body {
 	border-color: rgba(0,0,0,0.2);
 	font-size: 16px;
 	padding: 0px;
+}
+
+.search-button {
+	background-color: #0065FC;
+	color: white;
 }
 
 
@@ -118,7 +132,7 @@ submit:active {
 	padding: 0 30px;
 }
 
-.accom-background {
+.accomm-background {
 	background-color: #F2F2F2;
 	border-radius: 15px;
 	padding: 15px;
@@ -126,10 +140,29 @@ submit:active {
 
 .pop-background {
 	background-color: #F2F2F2;
+	border-radius: 15px;
+	padding: 15px;
+
+}
+
+.pop-heading {
+	display: inline;
+	list-style: none;
+		display: inline;
 }
 
 .footer-background {
 	background-color: #F2F2F2;
+}
+
+.accomm-header {
+	font-size: small;
+	margin-bottom: 20px;
+}
+
+.fa-info-circle {
+	/* background: white; */
+	color: #0065FC
 }
 
 .grey {
@@ -165,6 +198,7 @@ submit:active {
 
 .filter-content {
 	padding: 0 10px 0 5px;
+	font-size: small;
 }
 
 .search-input, .search-icon, .search-button {
@@ -202,6 +236,7 @@ submit:active {
 
 .search-form-mobile {
 	margin-bottom: 20px;
+	display: none;
 }
 
 .filter-img {
@@ -222,6 +257,21 @@ submit:active {
 	line-height: 33px;
 }
 
+.accomm-pop {
+	display: flex;
+	gap: 15px;
+	justify-content: space-around;
+	margin-bottom: 40px;
+}
+
+.accomm-body {
+	display: flex;
+	gap: 15px;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	margin: 20px;
+}
+
 .fb-10 {
 	flex-basis: 10%;	
 }
@@ -237,7 +287,7 @@ submit:active {
 	text-align: center;
 }
 
-.pop-heading-split {
+.pop-heading-left {
 	margin-right: auto;
 }
 .p-0 {
@@ -265,7 +315,7 @@ submit:active {
 }
 
 .ml {
-	margin-left: 20px;
+	margin-left: 20px;  
 }
 
 .m-all {
@@ -279,7 +329,7 @@ submit:active {
 .row {
 	display: flex;
 	gap: 15px;
-	justify-content: space-between;
+	justify-content: space-around;
 }
 
 .row-thirds {
@@ -296,6 +346,11 @@ submit:active {
 	margin: 0; padding: 0; 
 }
 
+.show-more-heading {
+	font-weight: bold;
+	margin: 20px;
+}
+
 .card {
 	display: flex;
 	flex-direction: column;
@@ -307,7 +362,7 @@ submit:active {
 
 .flex-grow {
     flex-grow: 1;
-	width: 200px;
+	max-width: 250px;
 }
 
 .w-100 {

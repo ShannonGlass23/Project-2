@@ -1,3 +1,7 @@
 .container {
     border: 8px solid rgb(162, 224, 146);
 }
+
+.search-form-mobile {
+	display: none;
+}

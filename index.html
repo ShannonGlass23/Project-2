@@ -6,6 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <link href="./CSS/style.css" rel="stylesheet" type="text/css">
   <meta charset="utf-8">
+  <title>Booki</title>
   <link rel="stylesheet" media="screen and (min-width: 992px)" href="css/style.css" type="text/css" />
   <!-- For those who have a resolution greater than 992px -->
   <link rel="stylesheet" media="screen and (min-width: 768px) and (max-width: 992px)" href="css/medium_resolution.css" />
@@ -30,26 +31,25 @@
   <div class="container">
     <nav class="navbar">
       <ul class="navbar-items">
-        <li class="nav-heading-split"><img class="logo" src="./images/logo/Booki.png" alt="image"></li>
-        <li class="font-small"><a href="#accom">Accommodations</a></li>
+        <li class="nav-heading-split"><img class="logo" src="./images/logo/Booki.png" alt="Booki company logo"></li>
+        <li class="font-small"><a href="#accomm">Accommodations</a></li>
         <li class="font-small"><a href="#activ">Activities</a></li>
       </ul>
     </nav>
 
-    <h4 class=mb2> Find a place for your dream vacation </h4>
-    <p class="subheading mb2"> Downtown or in Nature
-    </p>
+    <h4> Find a place for your dream vacation </h4>
+    <p class="downtown"> Downtown or in Nature</p>
 
     <form class="search-form-desktop">
       <i class="fas fa-map-marker-alt search-icon"></i>
       <input class="search-input" type="text" placeholder="Search"required>
-      <button class="search-button bg-blue white" type="submit">Search</button>
+      <button class="search-button" type="submit">Search</button>
     </form>
 
     <form class="search-form-mobile">
       <i class="fas fa-map-marker-alt search-icon"></i>
       <input class="search-input" type="text" placeholder="Search"required>
-      <i class="fas fa-search bg-blue white search-button"></i>
+      <i class="fas fa-search search-button"></i>
     </form>
 
     <div class="filter-row">
@@ -57,17 +57,17 @@
 
       <div class="filter">
         <i class="fas fa-money-bill-wave blue filter-img"></i>
-        <span class="filter-content subheading">Low Cost</span>
+        <span class="filter-content">Low Cost</span>
       </div>
 
       <div class="filter">
         <i class="fas fa-heart blue filter-img"></i>
-        <span class="filter-content subheading">Family-friendly</span>
+        <span class="filter-content">Family-friendly</span>
       </div>
 
       <div class="filter">
         <i class="fas fa-dog blue filter-img"></i>
-        <span class="filter-content subheading">Romantic</span>
+        <span class="filter-content">Romantic</span>
       </div>
 
       <div class="filter">
@@ -77,16 +77,15 @@
     </div>
 
 
-    <p class="mb subheading"> <i class="fas fa-info-circle blue"></i> More than 500 accommodations are available in this
-      city
-    </p>
+    <p class="accomm-header"> <i class="fas fa-info-circle"></i> More than 500 accommodations are available in this
+      city</p>
 
 
-    <div class="row mb">
-      <div id="accom" class="accom-background">
+    <div class="accomm-pop">
+      <div id="accomm" class="accomm-background">
         <h3 class="font-bold m-all"> Accommodations in Marselle </h3>
 
-        <div class="row row-wrap m-all">
+        <div class="accomm-body">
 
           <div class="card flex-grow">
             <img src="./images/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg" class="card-img-top"
@@ -172,15 +171,15 @@
             </div>
           </div>
         </div>
-        <h4 class="font-bold m-all">Show More</h4>
+        <h4 class="show-more-heading">Show More</h4>
       </div>
 
-      <div id="pop" class="pop-background border-radius p-1">
-          <nav class="navbar inline">
+      <div id="pop" class="pop-background">
+          <nav class="pop-heading navbar">
             <h3 class="font-bold m-all">
               <ul class="navbar-items"> 
-                <li class="pop-heading-split">Most Popular</li>
-                <li class="navbar-item"><i class="fas fa-chart-line"></i></li>
+                <li class="pop-heading-left">Most Popular</li>
+                <li><i class="fas fa-chart-line"></i></li>
               </ul>
             </h3>
           </nav>
@@ -236,12 +235,12 @@
       </div>
     </div>
 
-    <div id="activ">
+    <div id="activ" class="mbb">
       <h3 class="font-bold mb "> Activities in Marseille </h3>
 
 
       <div class="row">
-        <div class="card mbb">
+        <div class="card">
           <img src="./images/activites/4_small/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg"
             class="card-img-top card-img-no-border card-img-tall" alt="image">
           <div class="card-body">
@@ -250,7 +249,7 @@
         </div>
 
         <div class="column">
-          <div class="card mb">
+          <div class="card">
             <img src="./images/activites/4_small/paul-hermann-QFTrLdQIRhI-unsplash.jpg"
               class="card-img-top card-img-no-border card-img-tall med-height" alt="image">
             <div class="card-body">
@@ -258,7 +257,7 @@
             </div>
           </div>
 
-          <div class="card mbb">
+          <div class="card">
             <img src="./images/activites/4_small/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg"
               class="card-img-top card-img-no-border card-img-tall sml-height" alt="image">
             <div class="card-body"> 
@@ -267,7 +266,7 @@
           </div>
         </div>
 
-        <div class="card mbb">
+        <div class="card">
           <img src="./images/activites/4_small/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg"
             class="card-img-top card-img-no-border card-img-tall" alt="image">
           <div class="card-body">
@@ -276,7 +275,7 @@
         </div>
 
         <div class="column">
-          <div class="card mbb">
+          <div class="card">
             <img src="./images/activites/4_small/florian-wehde-xW9e8gdotxI-unsplash.jpg"
               class="card-img-top card-img-no-border card-img-tall" alt="image">
             <div class="card-body">
